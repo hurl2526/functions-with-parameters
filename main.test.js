@@ -1,4 +1,24 @@
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Patrick';
+let greeting = 'HEY';
+function multiply(number1) {
+  x = number1 * x;
+}
+function modYBy(number2) {
+  y = y % number2;
+}
+function opposite(number3) {
+  z = -number3;
+}
+function makeFullName(number4) {
+  name = name + " " + number4;
+}
+function yellAt(number5) {
+greeting = greeting + ',' + ' ' + number5 + '!';
+}
 
 /*********************************************************************************************************************
 
